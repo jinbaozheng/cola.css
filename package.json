@@ -1,12 +1,16 @@
 {
   "name": "cola.css",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple collection of CSS",
   "main": "index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "email": "cuppi413@163.com",
+    "name": "cuppi",
+    "url": "https://github.com/cuppi"
+  },
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^4.1.7",
@@ -19,5 +23,24 @@
   "dependencies": {
     "autoprefixer": "^9.3.1",
     "del": "^3.0.0"
+  },
+  "repository": {
+    "url": "git@github.com:jinbaozheng/cola.css.git",
+    "type": "git"
+  },
+  "keywords": [
+    "jinbaozheng",
+    "cola",
+    "cola.css"
+  ],
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "homepage": "https://github.com/jinbaozheng/cola.css",
+  "bugs": {
+    "url": "https://github.com/jinbaozheng/cola.css/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
