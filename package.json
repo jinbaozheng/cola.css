@@ -1,46 +1,47 @@
 {
-  "name": "cola.css",
-  "version": "1.0.0",
-  "description": "A Simple collection of CSS",
-  "main": "index.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": {
-    "email": "cuppi413@163.com",
-    "name": "cuppi",
-    "url": "https://github.com/cuppi"
-  },
-  "devDependencies": {
-    "cssnano": "^4.1.7",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "node-sass": "^4.9.4"
-  },
-  "dependencies": {
-    "autoprefixer": "^9.3.1",
-    "del": "^3.0.0"
-  },
-  "repository": {
-    "url": "git@github.com:jinbaozheng/cola.css.git",
-    "type": "git"
-  },
-  "keywords": [
-    "jinbaozheng",
-    "cola",
-    "cola.css"
-  ],
-  "engines": {
-    "node": ">= 0.6"
-  },
-  "homepage": "https://github.com/jinbaozheng/cola.css",
-  "bugs": {
-    "url": "https://github.com/jinbaozheng/cola.css/issues"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "license": "MIT"
+ "name": "cola.css",
+ "version": "1.0.12",
+ "description": "A Simple collection of CSS",
+ "main": "index.css",
+ "scripts": {
+  "publish-lib": "node ./publish-lib.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "author": {
+  "email": "cuppi413@163.com",
+  "name": "cuppi",
+  "url": "https://github.com/cuppi"
+ },
+ "devDependencies": {
+  "cssnano": "^4.1.7",
+  "gulp": "^3.9.1",
+  "gulp-concat": "^2.6.1",
+  "gulp-postcss": "^8.0.0",
+  "gulp-sass": "^4.0.2",
+  "node-sass": "^4.9.4"
+ },
+ "dependencies": {
+  "autoprefixer": "^9.3.1",
+  "del": "^3.0.0"
+ },
+ "repository": {
+  "url": "git@github.com:jinbaozheng/cola.css.git",
+  "type": "git"
+ },
+ "keywords": [
+  "jinbaozheng",
+  "cola",
+  "cola.css"
+ ],
+ "engines": {
+  "node": ">= 0.6"
+ },
+ "homepage": "https://github.com/jinbaozheng/cola.css",
+ "bugs": {
+  "url": "https://github.com/jinbaozheng/cola.css/issues"
+ },
+ "publishConfig": {
+  "registry": "https://registry.npmjs.org/"
+ },
+ "license": "MIT"
 }
