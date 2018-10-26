@@ -11,7 +11,6 @@
     "name": "cuppi",
     "url": "https://github.com/cuppi"
   },
-  "license": "ISC",
   "devDependencies": {
     "cssnano": "^4.1.7",
     "gulp": "^3.9.1",
@@ -42,5 +41,6 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "license": "MIT"
 }
