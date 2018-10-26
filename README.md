@@ -1,1 +1,1 @@
-A simple css set
+A Simple collection of CSS
