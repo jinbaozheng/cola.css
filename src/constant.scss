@@ -1,76 +1,11 @@
-$font-stack: Helvetica, sans-serif;
-
-/*
-长度常量
+/**
+  高度常量
  */
-
-//字体大小
-$s-1: 0.18rem;
-$s-2: 0.22rem;
-$s-3: 0.26rem;
-$s-4: 0.3rem;
-$s-5: 0.36rem;
-$s-6: 0.32rem;
-$s-7: 0.28rem;
-
-$size-1: 0.22rem;
-$size-2: 0.24rem;
-$size-3: 0.26rem;
-$size-4: 0.28rem;
-$size-5: 0.3rem;
-$size-6: 0.32rem;
-$size-7: 0.34rem;
-$size-8: 0.36rem;
-
-//文字粗细
-$font-weight: 500;
-//导航高度
 $nav-height: 0.88rem;
-//footer高度
-$footer-height: 0.96rem;
+$tab-height: 0.96rem;
 
 /*
-颜色常量
- */
-
-//文字颜色
-$c-font-1: #333333;
-$c-font-2: #666666;
-$c-font-3: #999999;
-$c-font-4: #cccccc;
-$c-font-5: #adadad;
-$c-font-6: #ff9933;
-$c-font-7: #555555;
-$c-font-8: #ff8000;
-$c-warn: #e71818;
-$c-font-black: #1a1c1d;
-
-$color-333: #333;
-$color-666: #666;
-$color-999: #999;
-$color-ccc: #ccc;
-
-//主要颜色
-$c-abc-blue: #00a6ff;
-$c-abc-high-blue: #00a6ff;
-
-//普通颜色
-$c-abc-orange: #ff5400;
-
-//白色
-$c-white: #ffffff;
-//分割线
-$seg-color: #e5e5e5;
-//body背景色
-$c-back: #f5f5f5;
-
-/*
-padding常量
- */
-$padding-main: 0.3rem;
-
-/*
-z-index层叠常量
+  z-index层叠常量
  */
 $index-floor: 0;
 $index-top: 999;
@@ -84,89 +19,16 @@ $index-7: 70;
 $index-8: 80;
 $index-9: 90;
 
-// sy
-$padding: 0.25rem;
-$padding-1: 0.25rem;
-$margin: 0.25rem;
-$margin-1: 0.25rem;
-//$nav-height: 44px;
-$c-bg: #f5f5f5;
-
-$font-size-10: 10px;
-$font-size-11: 11px;
-$font-size-12: 12px;
-$font-size-13: 13px;
-$font-size-14: 14px;
-$font-size-15: 15px;
-$font-size-16: 16px;
-$font-size-17: 17px;
-$font-size-18: 18px;
-$font-size-20: 20px;
-
-$fs-1: 0.24rem;
-$fs-2: 0.26rem;
-$fs-3: 0.28rem;
-$fs-4: 0.30rem;
-$fs-5: 0.32rem;
-$fs-6: 0.34rem;
-$fs-7: 0.36rem;
-$fs-7: 0.38rem;
-$fs-8: 0.40rem;
-
-
-$c-main: #00a6ff;
-$c-white: #fff;
-
+/**
+  文字
+ */
+$fc-1: #333333;
+$fc-2: #666666;
+$fc-3: #999999;
+$fs-1: 0rem;
+$fs-2: 0rem;
+$fs-3: 0rem;
 $c-333: #333;
 $c-999: #999;
 $c-666: #666;
-$c-5f5f5f: #5f5f5f;
-$c-f0f0f0: #f0f0f0;
-$c-dcdcdc: #dcdcdc;
-$c-ff5400: #ff5400;
-$c-ef8639: #ef8639;
-
-$c-border: #d7d7d7;
-$c-border-dfdfdf: #dfdfdf;
-$c-border-e5e5e5: #e5e5e5;
-$c-buy: #ff0000;
-$c-price: #ff0000;
-$c-00a6ff: #00a6ff;
-$c-backColor: #f8f8f8;
-$c-fece00: #fece00;
-$c-ff5723: #ff5723;
-$c-fee475: #fee475;
-$c-fc652b: #fc652b;
-
-// week
-$c-f2efeb: #f2efeb;
-$c-f78d2f: #f78d2f;
-$c-ffa022: #ffa022;
-$c-fe9f23: #fe9f23;
-$c-fbdfb4: #fbdfb4;
-$c-ddc4b3: #ddc4b3;
-// register
-$c-ff5a00: #ff5a00;
-$c-f7a32b: #f7a32b;
-$c-ffd291: #ffd291;
-$c-f56554: #f56554;
-$c-f9793b: #f9793b;
-$c-fabb3a: #fabb3a;
-$c-f88436: #f88436;
-$c-fe733c: #fe733c;
-// recharge
-$c-eeeeee: #eeeeee;
-$c-c0c0c0: #c0c0c0;
-$c-fe5604: #fe5604;
-$c-e8e8e8: #e8e8e8;
-$c-ff787a: #ff787a;
-$c-f1f1f1: #f1f1f1;
-// nine
-$c-F1D198: #F1D198;
-$c-89621b: #89621b;
-$c-867b6d: #867b6d;
-$c-ffa10c: #ffa10c;
-$c-fff7ea: #fff7ea;
-$c-c8732f: #c8732f;
-$c-0066ff: #0066ff;
-$c-ff7327: #ff7327;
+$font-stack: Helvetica, sans-serif;

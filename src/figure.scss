@@ -1,5 +1,4 @@
-//css画箭头
-@mixin setArrow($direction, $arrowSize, $borderColor, $borderWidth) {
+@mixin draw-arrow($direction, $arrowSize, $borderColor, $borderWidth) {
   display: inline-block !important;
   height: $arrowSize;
   width: $arrowSize;
@@ -24,7 +23,7 @@
 }
 
 //分割线
-@mixin setTopLine($c: $seg-color, $w: 1px) {
+@mixin make-top-line($c, $w: 1px) {
   content: " ";
   position: absolute;
   left: 0;
@@ -37,7 +36,7 @@
   transform: scaleY(0.5);
 }
 
-@mixin setBottomLine($c: $seg-color, $w: 1px) {
+@mixin make-bottom-line($c, $w: 1px) {
   content: " ";
   position: absolute;
   left: 0;
@@ -50,7 +49,7 @@
   transform: scaleY(0.5);
 }
 
-@mixin setLeftLine($c: $seg-color, $w: 1px) {
+@mixin make-left-line($c, $w: 1px) {
   content: " ";
   position: absolute;
   left: 0;
@@ -63,7 +62,7 @@
   transform: scaleX(0.5);
 }
 
-@mixin setRightLine($c: $seg-color, $w: 1px) {
+@mixin make-right-line($c, $w: 1px) {
   content: " ";
   position: absolute;
   right: 0;
@@ -77,7 +76,7 @@
 }
 
 //清除浮动
-@mixin clearfix() {
+@mixin clear-fix() {
   &:after {
     clear: both;
     content: '';
@@ -88,15 +87,7 @@
   }
 }
 
-//最小高度
-@mixin minHeight($min-height) {
-  min-height: $min-height;
-  height: auto !important;
-  height: $min-height;
-}
-
-//绝对居中
-@mixin center-center() {
+@mixin absolute-center() {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -108,13 +99,13 @@
 }
 
 //强制换行
-@mixin text_wrap() {
+@mixin text-wrap() {
   word-wrap: break-word;
   word-break: break-all;
 }
 
 //文字不换行
-@mixin text_nowrap() {
+@mixin text-nowrap() {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -130,17 +121,10 @@
 }
 
 //文字超出省略号（行数）
-@mixin ellipsisLn($line: 1) {
+@mixin ellipsis-ln($line: 1) {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: $line;
   -webkit-box-orient: vertical;
-}
-
-//英文换行
-@mixin hyphens() {
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  hyphens: auto;
 }
