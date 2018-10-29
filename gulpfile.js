@@ -5,6 +5,7 @@ const sass = require('gulp-sass');
 const concat = require('gulp-concat');
 const cssnano = require('cssnano');
 const del = require('del');
+const { watch } = require('gulp');
 
 sass.compiler = require('node-sass');
 
@@ -38,6 +39,16 @@ gulp.task('build:min', ['clean'], function () {
         .pipe(postcss([autoprefixer(), cssnano()]))
         .pipe(concat('index.min.css'))
         .pipe(gulp.dest('./dist'))
+});
+
+gulp.task('debug:min', ['build:min'], function () {
+    watch(['./src/*.scss'], function () {
+        gulp.src('./src/index.scss')
+            .pipe(sass().on('error', sass.logError))
+            .pipe(postcss([autoprefixer(), cssnano()]))
+            .pipe(concat('index.min.css'))
+            .pipe(gulp.dest('./dist'))
+    })
 });
 
 gulp.task('build:pro', ['build:dist', 'build:min']);
