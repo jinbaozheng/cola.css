@@ -61,5 +61,9 @@ typings/
 
 # next.js build output
 .next
-.idea
 
+# Jet-brains Ignore File
+.idea
+#/*.iws
+#workspace.xml
+#tasks.xml
