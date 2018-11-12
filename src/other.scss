@@ -1,0 +1,18 @@
+.top-half-pixel-line{
+  position: relative;
+  &::after {
+    position: absolute;
+    content: '';
+    z-index: 1;
+    pointer-events: none;
+    background-color: black;
+    height: 1px;
+    left: 0;
+    right: 0;
+    top: 0;
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+      -webkit-transform: scaleY(0.5);
+      -webkit-transform-origin: 50% 0;
+    }
+  }
+}
